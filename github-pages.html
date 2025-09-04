@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المحفظة الذكية بالذكاء الاصطناعي - بنك البلاد</title>
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/animations.css">
+    
+    <!-- External CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- External JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    
+    <!-- Fallback CSS in case external files don't load -->
+    <style>
+        /* Basic fallback styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Tajawal', Arial, sans-serif;
+            direction: rtl;
+            text-align: right;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        .hero-section {
+            padding: 100px 0;
+            text-align: center;
+        }
+        
+        .hero-title {
+            font-size: 3rem;
+            font-weight: 900;
+            margin-bottom: 20px;
+            background: linear-gradient(45deg, #00b4d8, #0077b6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .hero-subtitle {
+            font-size: 1.3rem;
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            padding: 15px 40px;
+            background: linear-gradient(45deg, #00b4d8, #0077b6);
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <!-- Fallback content in case main content doesn't load -->
+    <div class="hero-section">
+        <div class="container">
+            <h1 class="hero-title">المحفظة الذكية بالذكاء الاصطناعي</h1>
+            <p class="hero-subtitle">حل مصرفي متطور من بنك البلاد</p>
+            <a href="#features" class="cta-button">اكتشف المميزات</a>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <!-- Header Section -->
+    <header class="header" style="display: none;" id="main-header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-brand">
+                    <img src="./images/albalad-logo.png" alt="بنك البلاد" class="logo">
+                    <span class="brand-text">بنك البلاد</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">الرئيسية</a></li>
+                    <li><a href="#features">المميزات</a></li>
+                    <li><a href="#solution">الحل</a></li>
+                    <li><a href="#roadmap">خارطة الطريق</a></li>
+                    <li><a href="#contact">اتصل بنا</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home" style="display: none;" data-main-content>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text" data-aos="fade-right">
+                    <h1 class="hero-title">
+                        المحفظة الذكية
+                        <span class="gradient-text">بالذكاء الاصطناعي</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        تجربة مصرفية ثورية مع مستشار مالي ذكي وإدارة استباقية للأموال
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#demo" class="cta-primary">جربها الآن</a>
+                        <a href="#features" class="cta-secondary">اكتشف المميزات</a>
+                    </div>
+                </div>
+                <div class="hero-visual" data-aos="fade-left">
+                    <div class="phone-mockup">
+                        <div id="three-container"></div>
+                        <div class="card-overlay">
+                            <img src="./images/bank-card.png" alt="بطاقة بنك البلاد" class="bank-card">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rest of the content will be loaded from the main file -->
+    
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/script.js"></script>
+    
+    <!-- Initialize fallback -->
+    <script>
+        // Check if CSS loaded properly
+        function checkStylesLoaded() {
+            const testElement = document.createElement('div');
+            testElement.className = 'hero-section';
+            document.body.appendChild(testElement);
+            
+            const styles = window.getComputedStyle(testElement);
+            const hasStyles = styles.padding !== '0px' || styles.background.includes('gradient');
+            
+            document.body.removeChild(testElement);
+            return hasStyles;
+        }
+        
+        // Show main content if styles are loaded
+        setTimeout(() => {
+            if (checkStylesLoaded()) {
+                document.querySelector('.hero-section').style.display = 'none';
+                document.getElementById('main-header').style.display = 'block';
+                const mainContent = document.querySelectorAll('[data-main-content]');
+                mainContent.forEach(el => el.style.display = 'block');
+            }
+        }, 1000);
+        
+        // Initialize AOS
+        if (typeof AOS !== 'undefined') {
+            AOS.init({
+                duration: 1000,
+                easing: 'ease-in-out',
+                once: true
+            });
+        }
+    </script>
+</body>
+</html>
