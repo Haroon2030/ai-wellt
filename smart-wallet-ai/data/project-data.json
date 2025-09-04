@@ -1,0 +1,308 @@
+{
+  "projectInfo": {
+    "name": "المحفظة الذكية بالذكاء الاصطناعي",
+    "bankName": "بنك البلاد",
+    "version": "1.0.0",
+    "description": "حل مبتكر يلامس جوهر التحديات التي يواجهها عملاء البنوك اليوم"
+  },
+  
+  "features": [
+    {
+      "id": "ai-advisor",
+      "name": "المستشار المالي الذكي",
+      "description": "مستشار مالي تفاعلي يعمل بالذكاء الاصطناعي",
+      "icon": "fas fa-robot",
+      "benefits": [
+        "استشارات مالية فورية",
+        "تحليل شخصي للوضع المالي",
+        "توصيات مخصصة"
+      ]
+    },
+    {
+      "id": "smart-suggestions",
+      "name": "اقتراحات المنتجات الذكية",
+      "description": "يحلل طلباتك ويقدم قائمة بمنتجات مختارة",
+      "icon": "fas fa-shopping-cart",
+      "benefits": [
+        "اقتراحات متوافقة مع الميزانية",
+        "مقارنة الأسعار",
+        "عروض حصرية"
+      ]
+    },
+    {
+      "id": "voice-assistant",
+      "name": "المساعد الصوتي",
+      "description": "تفاعل مع المحفظة من خلال الأوامر الصوتية",
+      "icon": "fas fa-microphone",
+      "benefits": [
+        "تحكم صوتي كامل",
+        "دعم اللغة العربية",
+        "سهولة الاستخدام"
+      ]
+    },
+    {
+      "id": "proactive-banking",
+      "name": "البنك الاستباقي",
+      "description": "منصة ذكية تتوقع احتياجاتك",
+      "icon": "fas fa-bell",
+      "benefits": [
+        "تنبيهات ذكية للفواتير",
+        "اقتراحات ادخار تلقائية",
+        "تحذيرات الميزانية"
+      ]
+    }
+  ],
+  
+  "problems": [
+    {
+      "title": "ضعف التوعية المالية",
+      "description": "صعوبة في فهم وتحليل المصاريف الشخصية والعائلية",
+      "icon": "fas fa-question-circle",
+      "impact": "high"
+    },
+    {
+      "title": "غياب الإرشاد الشخصي",
+      "description": "عدم توفر مستشار مالي متاح على مدار الساعة",
+      "icon": "fas fa-user-times",
+      "impact": "high"
+    },
+    {
+      "title": "ضياع الفرص",
+      "description": "فوات فرص التوفير والعروض المميزة",
+      "icon": "fas fa-exclamation-triangle",
+      "impact": "medium"
+    },
+    {
+      "title": "تشتت الأدوات",
+      "description": "استخدام تطبيقات متعددة للمصروفات والميزانية",
+      "icon": "fas fa-mobile-alt",
+      "impact": "medium"
+    }
+  ],
+  
+  "vision2030": [
+    {
+      "pillar": "مجتمع حيوي",
+      "description": "رفع مستوى التوعية المالية وتحفيز الادخار",
+      "icon": "fas fa-users",
+      "goals": [
+        "زيادة نسبة مدخرات الأسر",
+        "تحسين الثقافة المالية",
+        "دعم الشمول المالي"
+      ]
+    },
+    {
+      "pillar": "اقتصاد مزدهر",
+      "description": "الابتكار في القطاع المالي والتحول الرقمي",
+      "icon": "fas fa-chart-line",
+      "goals": [
+        "تطوير التقنيات المالية",
+        "زيادة الاستثمارات",
+        "دعم ريادة الأعمال"
+      ]
+    },
+    {
+      "pillar": "وطن طموح",
+      "description": "كفاءة الأداء والخدمات الرقمية المتطورة",
+      "icon": "fas fa-flag",
+      "goals": [
+        "رقمنة الخدمات",
+        "تحسين الكفاءة",
+        "الابتكار التقني"
+      ]
+    }
+  ],
+  
+  "technologies": [
+    {
+      "name": "الذكاء الاصطناعي",
+      "description": "تعلم آلي متقدم لتحليل البيانات والتنبؤ",
+      "icon": "fas fa-brain",
+      "applications": [
+        "تحليل أنماط الإنفاق",
+        "التنبؤ بالاحتياجات المالية",
+        "توصيات شخصية"
+      ]
+    },
+    {
+      "name": "معالجة اللغات الطبيعية",
+      "description": "فهم وتحليل النصوص والأوامر الصوتية",
+      "icon": "fas fa-language",
+      "applications": [
+        "فهم الاستفسارات العربية",
+        "تحليل المحادثات",
+        "ردود ذكية"
+      ]
+    },
+    {
+      "name": "أمن البيانات",
+      "description": "تشفير متقدم وحماية عالية المستوى",
+      "icon": "fas fa-shield-alt",
+      "applications": [
+        "تشفير البيانات المالية",
+        "حماية الخصوصية",
+        "مراقبة الأمان"
+      ]
+    },
+    {
+      "name": "الحوسبة السحابية",
+      "description": "مرونة وقابلية توسع عالية",
+      "icon": "fas fa-cloud",
+      "applications": [
+        "توسع تلقائي",
+        "استمرارية الخدمة",
+        "وصول عالمي"
+      ]
+    }
+  ],
+  
+  "roadmap": [
+    {
+      "phase": 1,
+      "title": "المرحلة الأولى",
+      "duration": "3 أشهر",
+      "description": "إطلاق النسخة الأساسية مع المستشار المالي وتحليل المصروفات",
+      "deliverables": [
+        "المستشار المالي الأساسي",
+        "تتبع المصروفات",
+        "التقارير المالية"
+      ],
+      "budget": "500,000 ريال"
+    },
+    {
+      "phase": 2,
+      "title": "المرحلة الثانية",
+      "duration": "6 أشهر",
+      "description": "إضافة الميزات التفاعلية والمساعد الصوتي",
+      "deliverables": [
+        "اقتراحات المنتجات الذكية",
+        "المساعد الصوتي",
+        "التنبيهات الذكية"
+      ],
+      "budget": "800,000 ريال"
+    },
+    {
+      "phase": 3,
+      "title": "المرحلة الثالثة",
+      "duration": "12 شهر",
+      "description": "التكامل الكامل مع منتجات البنك والخدمات المتقدمة",
+      "deliverables": [
+        "خطط الادخار الذكية",
+        "الاستثمار التلقائي",
+        "المحفظة العائلية"
+      ],
+      "budget": "1,200,000 ريال"
+    }
+  ],
+  
+  "revenue_streams": [
+    {
+      "source": "الشراكات التجارية",
+      "description": "عمولة من المتاجر والعلامات التجارية",
+      "potential": "2-5% من قيمة المبيعات",
+      "timeline": "فوري"
+    },
+    {
+      "source": "الخدمات المتميزة",
+      "description": "باقات اشتراك للميزات المتقدمة",
+      "potential": "50-200 ريال شهرياً للمستخدم",
+      "timeline": "3-6 أشهر"
+    },
+    {
+      "source": "تحليل البيانات",
+      "description": "بيع رؤى السوق للشركات",
+      "potential": "عقود سنوية بقيمة مليونية",
+      "timeline": "12-18 شهر"
+    }
+  ],
+  
+  "demo_data": {
+    "user_profile": {
+      "name": "أحمد محمد",
+      "monthly_income": 8000,
+      "current_balance": 15000,
+      "savings_goal": 10000,
+      "savings_progress": 6500
+    },
+    "transactions": [
+      {
+        "id": 1,
+        "type": "expense",
+        "category": "طعام",
+        "amount": 150,
+        "description": "كارفور",
+        "date": "2025-01-10"
+      },
+      {
+        "id": 2,
+        "type": "expense",
+        "category": "فواتير",
+        "amount": 300,
+        "description": "فاتورة كهرباء",
+        "date": "2025-01-09"
+      },
+      {
+        "id": 3,
+        "type": "transfer",
+        "category": "تحويل",
+        "amount": 500,
+        "description": "تحويل لأحمد",
+        "date": "2025-01-08"
+      }
+    ],
+    "spending_analysis": {
+      "categories": [
+        {"name": "طعام", "amount": 1200, "percentage": 30, "trend": "up"},
+        {"name": "تسوق", "amount": 800, "percentage": 20, "trend": "down"},
+        {"name": "مواصلات", "amount": 600, "percentage": 15, "trend": "stable"},
+        {"name": "ترفيه", "amount": 500, "percentage": 12.5, "trend": "up"},
+        {"name": "فواتير", "amount": 700, "percentage": 17.5, "trend": "stable"},
+        {"name": "أخرى", "amount": 200, "percentage": 5, "trend": "stable"}
+      ],
+      "total": 4000,
+      "comparison": {
+        "previous_month": 3700,
+        "change_percentage": 8.1
+      }
+    }
+  },
+  
+  "contact_info": {
+    "phone": "920001234",
+    "email": "info@albalad.com.sa",
+    "address": "الرياض، المملكة العربية السعودية",
+    "website": "www.albalad.com.sa",
+    "social_media": {
+      "twitter": "@AlBaladBank",
+      "linkedin": "AlBaladBank",
+      "instagram": "@albaladbank",
+      "youtube": "AlBaladBankSA"
+    }
+  },
+  
+  "team_info": {
+    "project_manager": "فريق الابتكار - بنك البلاد",
+    "development_team": "فريق التطوير التقني",
+    "design_team": "فريق تجربة المستخدم",
+    "data_science_team": "فريق علوم البيانات والذكاء الاصطناعي"
+  },
+  
+  "kpis": {
+    "user_adoption": {
+      "target": "100,000 مستخدم في السنة الأولى",
+      "metric": "نمو شهري 15%"
+    },
+    "user_engagement": {
+      "target": "استخدام يومي لـ 70% من المستخدمين",
+      "metric": "متوسط 15 دقيقة يومياً"
+    },
+    "revenue_impact": {
+      "target": "زيادة الإيرادات بنسبة 25%",
+      "metric": "ROI إيجابي خلال 18 شهر"
+    },
+    "customer_satisfaction": {
+      "target": "تقييم 4.5/5 في متاجر التطبيقات",
+      "metric": "NPS أعلى من 50"
+    }
+  }
+}

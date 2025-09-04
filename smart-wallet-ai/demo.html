@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>العرض التوضيحي - المحفظة الذكية</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/demo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-brand">
+                    <img src="images/albalad-logo.png" alt="بنك البلاد" class="logo">
+                    <span class="brand-text">بنك البلاد</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="#ai-advisor">المستشار الذكي</a></li>
+                    <li><a href="#voice-assistant">المساعد الصوتي</a></li>
+                    <li><a href="#smart-suggestions">الاقتراحات الذكية</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Demo Hero Section -->
+    <section class="demo-hero">
+        <div class="container">
+            <div class="demo-header">
+                <h1>العرض التوضيحي التفاعلي</h1>
+                <p>جرب مميزات المحفظة الذكية بالذكاء الاصطناعي</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Financial Advisor Demo -->
+    <section id="ai-advisor" class="advisor-demo">
+        <div class="container">
+            <div class="demo-section-header">
+                <h2><i class="fas fa-robot"></i> المستشار المالي الذكي</h2>
+                <p>جرب محادثة مع المستشار المالي الذكي</p>
+            </div>
+            
+            <div class="chat-interface">
+                <div class="chat-container">
+                    <div class="chat-header">
+                        <div class="advisor-avatar">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="advisor-info">
+                            <h3>المستشار المالي الذكي</h3>
+                            <span class="status">متصل الآن</span>
+                        </div>
+                    </div>
+                    
+                    <div class="chat-messages" id="chatMessages">
+                        <div class="message bot-message">
+                            <div class="message-content">
+                                مرحباً! أنا المستشار المالي الذكي. كيف يمكنني مساعدتك في إدارة أموالك اليوم؟
+                            </div>
+                            <div class="message-time">الآن</div>
+                        </div>
+                    </div>
+                    
+                    <div class="chat-input-container">
+                        <div class="quick-questions">
+                            <button class="quick-btn" data-question="كيف يمكنني توفير المال؟">
+                                <i class="fas fa-piggy-bank"></i>
+                                كيف أوفر؟
+                            </button>
+                            <button class="quick-btn" data-question="ما هي مصروفاتي هذا الشهر؟">
+                                <i class="fas fa-chart-pie"></i>
+                                مصروفاتي
+                            </button>
+                            <button class="quick-btn" data-question="أريد خطة ادخار">
+                                <i class="fas fa-target"></i>
+                                خطة ادخار
+                            </button>
+                        </div>
+                        <div class="chat-input-area">
+                            <input type="text" id="chatInput" placeholder="اكتب سؤالك هنا...">
+                            <button id="sendBtn"><i class="fas fa-paper-plane"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Voice Assistant Demo -->
+    <section id="voice-assistant" class="voice-demo">
+        <div class="container">
+            <div class="demo-section-header">
+                <h2><i class="fas fa-microphone"></i> المساعد الصوتي</h2>
+                <p>جرب التحكم الصوتي في المحفظة</p>
+            </div>
+            
+            <div class="voice-interface">
+                <div class="voice-visualizer">
+                    <div class="pulse-ring"></div>
+                    <div class="voice-button" id="voiceBtn">
+                        <i class="fas fa-microphone"></i>
+                    </div>
+                </div>
+                
+                <div class="voice-status">
+                    <p id="voiceStatus">انقر على الميكروفون وقل أمرك</p>
+                </div>
+                
+                <div class="voice-commands">
+                    <h3>أمثلة على الأوامر الصوتية:</h3>
+                    <div class="commands-grid">
+                        <div class="command-item">
+                            <i class="fas fa-wallet"></i>
+                            <span>"اعرض رصيدي"</span>
+                        </div>
+                        <div class="command-item">
+                            <i class="fas fa-chart-line"></i>
+                            <span>"كم صرفت هذا الأسبوع؟"</span>
+                        </div>
+                        <div class="command-item">
+                            <i class="fas fa-credit-card"></i>
+                            <span>"اعرض آخر المعاملات"</span>
+                        </div>
+                        <div class="command-item">
+                            <i class="fas fa-bell"></i>
+                            <span>"فعل التنبيهات"</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Smart Suggestions Demo -->
+    <section id="smart-suggestions" class="suggestions-demo">
+        <div class="container">
+            <div class="demo-section-header">
+                <h2><i class="fas fa-lightbulb"></i> الاقتراحات الذكية</h2>
+                <p>شاهد كيف تعمل اقتراحات المنتجات الذكية</p>
+            </div>
+            
+            <div class="suggestion-simulator">
+                <div class="search-simulation">
+                    <h3>مثال تطبيقي:</h3>
+                    <div class="user-input">
+                        <i class="fas fa-user"></i>
+                        <span>"أبحث عن لابتوب بميزانية 3000 ريال"</span>
+                    </div>
+                    
+                    <div class="ai-processing">
+                        <div class="processing-animation">
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                        <span>الذكاء الاصطناعي يبحث عن أفضل الخيارات...</span>
+                    </div>
+                    
+                    <div class="suggestions-results">
+                        <div class="suggestion-card">
+                            <img src="https://via.placeholder.com/150x100/1a5f3f/white?text=Laptop+1" alt="لابتوب 1">
+                            <div class="suggestion-info">
+                                <h4>Dell Inspiron 15</h4>
+                                <p class="price">2,899 ريال</p>
+                                <p class="savings">توفير 101 ريال من ميزانيتك</p>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span>4.2</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="suggestion-card">
+                            <img src="https://via.placeholder.com/150x100/2d8f5f/white?text=Laptop+2" alt="لابتوب 2">
+                            <div class="suggestion-info">
+                                <h4>HP Pavilion 14</h4>
+                                <p class="price">2,750 ريال</p>
+                                <p class="savings">توفير 250 ريال من ميزانيتك</p>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span>4.5</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="suggestion-card featured">
+                            <div class="featured-badge">الأفضل لك</div>
+                            <img src="https://via.placeholder.com/150x100/a0d4c7/333?text=Laptop+3" alt="لابتوب 3">
+                            <div class="suggestion-info">
+                                <h4>Lenovo IdeaPad 3</h4>
+                                <p class="price">2,950 ريال</p>
+                                <p class="savings">ضمن ميزانيتك بـ 50 ريال</p>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <span>4.7</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Features Demo -->
+    <section class="interactive-features">
+        <div class="container">
+            <div class="demo-section-header">
+                <h2><i class="fas fa-magic"></i> ميزات تفاعلية إضافية</h2>
+                <p>استكشف المزيد من إمكانيات المحفظة الذكية</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="interactive-card" data-feature="spending-analysis">
+                    <div class="card-icon">
+                        <i class="fas fa-chart-pie"></i>
+                    </div>
+                    <h3>تحليل المصروفات</h3>
+                    <p>شاهد تحليل تفصيلي لمصروفاتك</p>
+                    <button class="demo-btn">جرب الآن</button>
+                </div>
+                
+                <div class="interactive-card" data-feature="budget-planner">
+                    <div class="card-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3>مخطط الميزانية</h3>
+                    <p>إنشاء ميزانية ذكية تلقائياً</p>
+                    <button class="demo-btn">جرب الآن</button>
+                </div>
+                
+                <div class="interactive-card" data-feature="savings-goals">
+                    <div class="card-icon">
+                        <i class="fas fa-target"></i>
+                    </div>
+                    <h3>أهداف الادخار</h3>
+                    <p>حدد أهدافك وتابع تقدمك</p>
+                    <button class="demo-btn">جرب الآن</button>
+                </div>
+                
+                <div class="interactive-card" data-feature="notifications">
+                    <div class="card-icon">
+                        <i class="fas fa-bell"></i>
+                    </div>
+                    <h3>التنبيهات الذكية</h3>
+                    <p>تنبيهات استباقية لإدارة أفضل</p>
+                    <button class="demo-btn">جرب الآن</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo Modal -->
+    <div class="modal" id="demoModal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-body" id="modalBody">
+                <!-- Dynamic content will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Main -->
+    <section class="back-to-main">
+        <div class="container">
+            <div class="cta-content">
+                <h2>مقتنع بالمميزات؟</h2>
+                <p>عد إلى الصفحة الرئيسية لمعرفة المزيد عن المشروع</p>
+                <a href="index.html" class="btn btn-primary btn-large">
+                    <i class="fas fa-arrow-right"></i>
+                    العودة للصفحة الرئيسية
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <img src="images/albalad-logo.png" alt="بنك البلاد" class="footer-logo">
+                        <h3>بنك البلاد</h3>
+                        <p>العرض التوضيحي - المحفظة الذكية</p>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>روابط سريعة</h4>
+                    <ul>
+                        <li><a href="index.html">الرئيسية</a></li>
+                        <li><a href="#ai-advisor">المستشار الذكي</a></li>
+                        <li><a href="#voice-assistant">المساعد الصوتي</a></li>
+                        <li><a href="#smart-suggestions">الاقتراحات الذكية</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>تواصل معنا</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-phone"></i> 920001234</p>
+                        <p><i class="fas fa-envelope"></i> info@albalad.com.sa</p>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>المطور</h4>
+                    <div class="developer-info">
+                        <p><i class="fas fa-user"></i> المهندس هارون الأهدل</p>
+                        <p><i class="fas fa-phone"></i> <a href="tel:+966591076092" style="color: #a0d4c7;">0591076092</a></p>
+                        <p><i class="fas fa-code"></i> تطوير وتصميم المشروع</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 بنك البلاد. جميع الحقوق محفوظة للمهندس هارون الأهدل - للتواصل: <a href="tel:+966591076092" style="color: #a0d4c7;">0591076092</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/demo.js"></script>
+</body>
+</html>
