@@ -1,0 +1,219 @@
+{
+  "name": "smart-wallet-ai",
+  "version": "1.0.0",
+  "description": "المحفظة الذكية بالذكاء الاصطناعي - مشروع هاكاثون بنك البلاد 2025",
+  "main": "index.html",
+  "scripts": {
+    "start": "php -S localhost:8000",
+    "dev": "live-server --port=8080",
+    "build": "npm run minify-css && npm run minify-js",
+    "minify-css": "cleancss -o dist/style.min.css css/style.css css/demo.css css/animations.css",
+    "minify-js": "uglifyjs js/script.js js/demo.js -o dist/script.min.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/albalad-bank/smart-wallet-ai.git"
+  },
+  "keywords": [
+    "fintech",
+    "ai",
+    "banking",
+    "smart-wallet",
+    "saudi-arabia",
+    "vision2030",
+    "albalad-bank",
+    "hackathon",
+    "machine-learning",
+    "nlp",
+    "voice-assistant",
+    "financial-advisor"
+  ],
+  "author": {
+    "name": "المهندس هارون الأهدل",
+    "email": "haroon.alahdal@example.com",
+    "phone": "+966591076092",
+    "url": "https://www.albalad.com.sa"
+  },
+  "contributors": [
+    {
+      "name": "المهندس هارون الأهدل - المطور الرئيسي",
+      "email": "haroon.alahdal@example.com",
+      "role": "Lead Frontend Developer & UI/UX Designer"
+    },
+    {
+      "name": "فريق التطوير التقني",
+      "email": "tech@albalad.com.sa"
+    },
+    {
+      "name": "فريق تجربة المستخدم",
+      "email": "ux@albalad.com.sa"
+    },
+    {
+      "name": "فريق علوم البيانات",
+      "email": "datascience@albalad.com.sa"
+    }
+  ],
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ],
+  "dependencies": {
+    "three": "^0.148.0",
+    "aos": "^2.3.4",
+    "gsap": "^3.12.2"
+  },
+  "devDependencies": {
+    "clean-css-cli": "^5.6.2",
+    "uglify-js": "^3.17.4",
+    "live-server": "^1.2.2",
+    "http-server": "^14.1.1"
+  },
+  "config": {
+    "port": 8080,
+    "ssl": false
+  },
+  "homepage": "https://albalad-bank.github.io/smart-wallet-ai",
+  "bugs": {
+    "url": "https://github.com/albalad-bank/smart-wallet-ai/issues",
+    "email": "support@albalad.com.sa"
+  },
+  "funding": {
+    "type": "corporate",
+    "url": "https://www.albalad.com.sa/innovation"
+  },
+  "files": [
+    "index.html",
+    "demo.html",
+    "css/",
+    "js/",
+    "images/",
+    "data/",
+    "README.md"
+  ],
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "os": [
+    "win32",
+    "darwin",
+    "linux"
+  ],
+  "cpu": [
+    "x64",
+    "arm64"
+  ],
+  "techStack": {
+    "frontend": [
+      "HTML5",
+      "CSS3",
+      "JavaScript ES6+",
+      "Three.js",
+      "AOS (Animate On Scroll)"
+    ],
+    "backend": [
+      "Node.js (للتطوير المستقبلي)",
+      "Python (للذكاء الاصطناعي)",
+      "TensorFlow/PyTorch (للتعلم الآلي)"
+    ],
+    "ai_ml": [
+      "Natural Language Processing",
+      "Machine Learning",
+      "Deep Learning",
+      "Computer Vision",
+      "Speech Recognition"
+    ],
+    "cloud": [
+      "AWS/Azure/GCP",
+      "Docker",
+      "Kubernetes",
+      "Microservices"
+    ],
+    "database": [
+      "MongoDB",
+      "PostgreSQL",
+      "Redis",
+      "Elasticsearch"
+    ],
+    "security": [
+      "OAuth 2.0",
+      "JWT",
+      "AES Encryption",
+      "TLS/SSL"
+    ]
+  },
+  "features": {
+    "core": [
+      "AI Financial Advisor",
+      "Smart Product Suggestions",
+      "Voice Assistant",
+      "Proactive Banking",
+      "Spending Analysis",
+      "Budget Planning",
+      "Savings Goals",
+      "Smart Notifications"
+    ],
+    "advanced": [
+      "Predictive Financial Planning",
+      "Investment Recommendations",
+      "Family Wallet Management",
+      "Gamification",
+      "Loyalty Integration",
+      "Real-time Market Analysis"
+    ]
+  },
+  "roadmap": {
+    "q1_2025": [
+      "Core AI Advisor Development",
+      "Basic Spending Tracking",
+      "Arabic NLP Integration"
+    ],
+    "q2_2025": [
+      "Voice Assistant Implementation",
+      "Smart Suggestions Engine",
+      "Mobile App Development"
+    ],
+    "q3_2025": [
+      "Bank Systems Integration",
+      "Advanced AI Features",
+      "Security Enhancements"
+    ],
+    "q4_2025": [
+      "Full Launch",
+      "Performance Optimization",
+      "User Feedback Integration"
+    ]
+  },
+  "targets": {
+    "users": "100,000+ في السنة الأولى",
+    "engagement": "70% استخدام يومي",
+    "satisfaction": "4.5/5 تقييم",
+    "roi": "ROI إيجابي خلال 18 شهر"
+  },
+  "vision2030_alignment": {
+    "vibrant_society": [
+      "تحسين التوعية المالية",
+      "زيادة معدلات الادخار",
+      "دعم الشمول المالي"
+    ],
+    "thriving_economy": [
+      "الابتكار في القطاع المالي",
+      "تطوير التقنيات المالية",
+      "دعم ريادة الأعمال"
+    ],
+    "ambitious_nation": [
+      "التحول الرقمي",
+      "كفاءة الخدمات الحكومية",
+      "الاستثمار في التقنيات الناشئة"
+    ]
+  }
+}
